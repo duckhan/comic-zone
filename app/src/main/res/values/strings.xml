@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Master Comic</string>
+    <string name="app_name" translatable="false">Comic Zone</string>
     <string name="describeImageView">Show chapter</string>
     <string name="describeCoverStory">Show chapter</string>
     <string name="more">Xem thêm</string>
