@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mastercomic"
+    package="com.comiczone"
     tools:ignore="GoogleAppIndexingWarning">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,13 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.PageComicActivity" />
-        <activity android:name=".activity.DetailComicActivity" />
-        <activity android:name=".activity.CategoryActivity" />
-        <activity android:name=".activity.FavoriteActivity" />
-        <activity android:name=".activity.MoreActivity" />
+        <activity android:name="com.comiczone.activity.PageComicActivity" />
+        <activity android:name="com.comiczone.activity.DetailComicActivity" />
+        <activity android:name="com.comiczone.activity.CategoryActivity" />
+        <activity android:name="com.comiczone.activity.FavoriteActivity" />
+        <activity android:name="com.comiczone.activity.MoreActivity" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.comiczone.activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden">
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mastercomic.activity.TopActivity"
+            android:name="com.comiczone.activity.TopActivity"
             android:windowSoftInputMode="stateHidden" />
 
 
